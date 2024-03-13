@@ -55,17 +55,17 @@ fi
 
 cp settings.example.json settings.json
 
-export namespace="${NAMESPACE:-UNISWAPV2}"
-export prost_rpc_url="${PROST_RPC_URL:-https://rpc-prost1b.powerloom.io}"
+export namespace="${NAMESPACE:-aavev3}"
+export prost_rpc_url="${PROST_RPC_URL:-https://rpc-prost-1h-sv2cc82c3x.t.conduit.xyz}"
 
-export prost_chain_id="${PROST_CHAIN_ID:-103}"
+export prost_chain_id="${PROST_CHAIN_ID:-11165}"
 
 export ipfs_url="${IPFS_URL:-/dns/ipfs/tcp/5001}"
 export ipfs_api_key="${IPFS_API_KEY:-}"
 export ipfs_api_secret="${IPFS_API_SECRET:-}"
 
-export protocol_state_contract="${PROTOCOL_STATE_CONTRACT:-0x102Af943b34FAC403a6ACB8e463f44bE164aa942}"
-export relayer_host="${RELAYER_HOST:-https://relayer-prod1b.powerloom.io/75822d76fa4d497ab3b409b3f097f4fa}"
+export protocol_state_contract="${PROTOCOL_STATE_CONTRACT:-0x418395520e9B93390dCC6Cf25EdB80c517914ACC}"
+export relayer_host="${RELAYER_HOST:-}"
 
 export slack_reporting_url="${SLACK_REPORTING_URL:-}"
 export powerloom_reporting_url="${POWERLOOM_REPORTING_URL:-}"
